@@ -1,0 +1,15 @@
+.category{
+    z-index:1;
+    min-height:300px;
+    min-width:250px;
+    max-width:800px;
+    margin:20px;
+    flex:1;
+    background-color:white;
+    padding:17px;
+    /* box-shadow:2px 0px 4px 2px dimgrey; */
+}
+.category img {
+    width:100%;
+    cursor: pointer;
+}

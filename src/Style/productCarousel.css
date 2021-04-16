@@ -1,0 +1,32 @@
+.productCarousel{
+   height:300px;
+ margin-bottom:40px;
+display:flex;
+overflow-x:scroll;
+flex-direction:row;
+/* align-content:center; */
+background-color:#ededed;
+padding:20px;
+min-width:100%;
+overflow-y:hidden
+}
+.productCarousel::-webkit-scrollbar {
+  height: 7px;
+cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+cursor: pointer;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 10px;
+cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover{
+background:lightgray;
+}

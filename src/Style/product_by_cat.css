@@ -1,0 +1,11 @@
+.product_by_cat{    
+    padding:10px;
+    margin-top:60px;
+}
+.products {
+    margin-top:40px;
+    margin-bottom:40px;
+    display:flex;
+    padding-bottom:60px;
+    border-bottom:1px solid darkgray
+}
